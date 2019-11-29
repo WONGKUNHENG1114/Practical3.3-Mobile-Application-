@@ -1,0 +1,22 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package generictesting;
+
+/**
+ *
+ * @author A555L-HENG
+ */
+public interface List<T> {
+    void add(T t);
+    
+   Boolean IsFull();
+   
+   void ExpandArray();
+   
+   int length();
+   boolean isEmpty();
+    
+}
